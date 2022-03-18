@@ -1,0 +1,72 @@
+/* External Resources */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* Variables */
+:root {
+  font-size: 10px;
+  --color-white : white;
+  --color-lightGray : #d6e2f0;
+  --color-grayishBlue : #7b879d;
+  --color-darkBlue : #1f3251;
+  --padding-default : 2rem;
+  --margin-default: calc(var(--padding-default) * 1);
+  --borderRadius-default : 10px; 
+}
+
+body {
+  font-size: 1.5rem; /* 15px, as mentioned in the style guide */
+  line-height: 1.25;
+  background-color: var(--color-lightGray);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh; /* Without height property the card won't align horizontally */
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 375px;
+  height: 100%;
+  background-color: var(--color-white);
+  padding: var(--padding-default);
+  border-radius: var(--borderRadius-default);
+}
+
+.wrapper-image img {
+  border-radius: var(--borderRadius-default);
+}
+
+.wrapper-text {
+  font-family: 'Outfit', sans-serif;
+  text-align: center;
+}
+
+
+.wrapper-text>* {
+  margin-top: var(--margin-default);  /* Applies margin to all elements of the wrapper */
+}
+
+.wrapper-text h1 {
+  font-weight: 700;
+  color: var(--color-darkBlue);
+}
+
+.wrapper-text h3 {
+  font-weight: 400;
+  color: var(--color-grayishBlue);
+}
+
+footer {
+  margin-top: var(--margin-default);
+}
+
+footer .attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+footer .attribution a { 
+  color: #3e52a3; 
+}

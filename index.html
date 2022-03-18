@@ -5,24 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./reset.css">  <!-- Applying css reset first would make my main style consistent accross browsers -->
+  <link rel="stylesheet" href="./main.css">
+
   <title>Frontend Mentor | QR code component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main>
+    <div class="card">
+      <!-- Image Wrapper -->
+      <div class="wrapper-image">
+        <img src="./images/image-qr-code.png" alt="Image of a QR code">
+      </div>
+      <!-- Text Wrapper -->
+      <div class="wrapper-text">
+        <!-- Main Heading -->
+        <h1>
+          Improve your front-end skills by building projects
+        </h1>
+        <!-- Sub-Heading -->
+        <h3>
+          Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+        </h3>
+      </div>
+    </div>
+  </main>
 </body>
+<footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Abu Naser Muhammad Arman | March 2022</a>.
+  </div>
+</footer>
 </html>
