@@ -1,6 +1,6 @@
 # As Salamu Alaikum! 👋 
 
-This is my solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H).
+This is my solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). To view the live site [Click Here](https://arman-anm.github.io/qr-code-component-main/).
 
 ## Table of contents
 
@@ -13,16 +13,16 @@ This is my solution to the [QR code component challenge on Frontend Mentor](http
     - [What I learned](#what-i-learned)
     - [Useful resources](#useful-resources)
   - [Get Connected](#get-connected)
-
-
 ## Overview
 I've embarked this challenge to brush-up my HTML & CSS skills.
+
 ### Screenshot
+
 ![Screenshot of my finished product](./design/screenshot.png) 
 
 ### Links
 
-- Live Site URL: [Click Here to view the page](https://arman-anm.github.io/qr-code-component-main/)
+-  [Live Site](https://arman-anm.github.io/qr-code-component-main/)
  
 ### Built with
 
@@ -53,4 +53,4 @@ This time i've used Flexbox luckily it worked😇😇
 - Facebook - [Abu Naser Muhammad Arman](https://www.facebook.com/armaan.anm)
 - Instagram - [@arman_anm](https://www.instagram.com/arman_anm/)
 - Twitter - [@arman_anm](https://twitter.com/arman_anm)
-- Gmail - [armaan.anm@gmail.com](mailto:armaan.anm@gmail.com)
+- Gmail - <armaan.anm@gmail.com>
