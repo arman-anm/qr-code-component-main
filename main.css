@@ -61,6 +61,7 @@ main {
 
 footer {
   margin-top: var(--margin-default);
+  font-family: 'Outfit', sans-serif;
 }
 
 footer .attribution { 
