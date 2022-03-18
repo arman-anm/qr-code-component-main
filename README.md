@@ -23,6 +23,7 @@ I've embarked this challenge to brush-up my HTML & CSS skills.
 ### Links
 
 -  [Live Site](https://arman-anm.github.io/qr-code-component-main/)
+-  [Solution](https://www.frontendmentor.io/solutions/qr-code-component-challenge-using-html-and-css-STiO-43zm)
  
 ### Built with
 

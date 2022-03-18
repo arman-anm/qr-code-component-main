@@ -8,13 +8,12 @@
   --color-lightGray : #d6e2f0;
   --color-grayishBlue : #7b879d;
   --color-darkBlue : #1f3251;
-  --padding-default : 2rem;
+  --padding-default : 1.5rem;
   --margin-default: calc(var(--padding-default) * 1);
   --borderRadius-default : 10px; 
 }
 
 body {
-  font-size: 1.5rem; /* 15px, as mentioned in the style guide */
   line-height: 1.25;
   background-color: var(--color-lightGray);
 }
@@ -28,7 +27,7 @@ main {
 }
 
 .card {
-  width: 375px;
+  width: 320px;
   height: 100%;
   background-color: var(--color-white);
   padding: var(--padding-default);
@@ -49,12 +48,18 @@ main {
   margin-top: var(--margin-default);  /* Applies margin to all elements of the wrapper */
 }
 
-.wrapper-text h1 {
+.wrapper-text:last-child {
+  margin-bottom: var(--margin-default); /* Applies margin to the last element of the wrapper */
+}
+
+.wrapper-text .mainHeading {
+  font-size: 2.4rem;
   font-weight: 700;
   color: var(--color-darkBlue);
 }
 
-.wrapper-text h3 {
+.wrapper-text .subHeading {
+  font-size: 1.5rem;
   font-weight: 400;
   color: var(--color-grayishBlue);
 }
