@@ -32,9 +32,9 @@ I've embarked this challenge to brush-up my HTML & CSS skills.
 - Mobile-first workflow
 
 ### What I learned
-- Centering an element in HTML is freaking hard for me. Everytime I mess up with at least something😏
+- Centering an element in HTML is freaking hard for me. There must be something wrong, everytime😏
 
-This time i've used Flexbox luckily it worked😇😇
+This time, luckily it worked😇😇
 
 ```css
   display: flex;
