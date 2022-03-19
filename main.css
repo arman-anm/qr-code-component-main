@@ -52,13 +52,13 @@ main {
   margin-bottom: var(--margin-default); /* Applies margin to the last element of the wrapper */
 }
 
-.wrapper-text .mainHeading {
+.wrapper-text .heading {
   font-size: 2.4rem;
   font-weight: 700;
   color: var(--color-darkBlue);
 }
 
-.wrapper-text .subHeading {
+.wrapper-text .paragraph {
   font-size: 1.5rem;
   font-weight: 400;
   color: var(--color-grayishBlue);
