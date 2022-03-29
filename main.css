@@ -1,51 +1,50 @@
 /* External Resources */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+/* font-family: 'Outfit', sans-serif; */
 
 /* Variables */
 :root {
   font-size: 10px;
-  --color-white : white;
-  --color-lightGray : #d6e2f0;
-  --color-grayishBlue : #7b879d;
-  --color-darkBlue : #1f3251;
-  --padding-default : 1.5rem;
-  --margin-default: calc(var(--padding-default) * 1);
-  --borderRadius-default : 10px; 
+  --white : white;
+  --lightGray : #d6e2f0;
+  --grayishBlue : #7b879d;
+  --darkBlue : #1f3251;
+  --padding-default : 15px;
+  --margin-default: 15px;
 }
 
 body {
+  font-family: 'Outfit', sans-serif;
   line-height: 1.25;
-  background-color: var(--color-lightGray);
+  background-color: var(--lightGray);
 }
 
 main {
   display: flex;
-  flex-direction: column;
-  min-height: 90vh; /* Without height property the card won't align horizontally */
+  min-height: 100vh; /* Without height property the card won't align vertically */
   justify-content: center;
   align-items: center;
 }
 
 .card {
-  width: 320px;
-  height: 100%;
-  background-color: var(--color-white);
+  max-width: 320px;
+  background-color: var(--white);
   padding: var(--padding-default);
-  border-radius: var(--borderRadius-default);
+  border-radius: 10px;
 }
 
-.wrapper-image img {
-  border-radius: var(--borderRadius-default);
+.wrapper-image {
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .wrapper-text {
-  font-family: 'Outfit', sans-serif;
   text-align: center;
 }
 
 
 .wrapper-text>* {
-  margin-top: var(--margin-default);  /* Applies margin to all elements of the wrapper */
+  margin-top: var(--margin-default);  /* Applies margin to all childs of the wrapper */
 }
 
 .wrapper-text:last-child {
@@ -55,22 +54,21 @@ main {
 .wrapper-text .heading {
   font-size: 2.4rem;
   font-weight: 700;
-  color: var(--color-darkBlue);
+  color: var(--darkBlue);
 }
 
 .wrapper-text .paragraph {
   font-size: 1.5rem;
   font-weight: 400;
-  color: var(--color-grayishBlue);
+  color: var(--grayishBlue);
 }
 
 footer {
-  margin-top: var(--margin-default);
-  font-family: 'Outfit', sans-serif;
+  margin: var(--margin-default) 0;
 }
 
 footer .attribution { 
-  font-size: 11px; 
+  font-size: 1.1rem; 
   text-align: center; 
 }
 footer .attribution a { 
